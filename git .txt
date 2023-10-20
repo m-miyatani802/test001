@@ -13,7 +13,30 @@ pull = リモートリポジトリにローカルリポジトリのファイル�
 clone = リモートリポジトリのファイルをそのまま得る
 
 
-あああ
+gitignore
 
 
-まさ＿３
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCVf0/lF6J6p3Yjo23g1N8PY/yw05w1ZT8C3FbHzp09i5CrSRLl5aFan3HpYejDExsVoe2Z0vJYqPGvnmi99VkOLmlCEW0JB0qLtX8yRR7eN53CqwE39ZrgTO4OyoscJ/5rHjulNrX6jGmPom5aar3YBegE7iXfPFnlX6kFPubymJBDHq9YLIntOrMAdwbMde9dfT2T0805HiX37E+mwW1ciwTu7avRpuVCgGBl8z5TgGWEBAnVxOkQ6xwk3A5XMpDqpiI+TnHJPRqAbow6+abp2DaWOhM64jqrwdKcRI6/RIGin1LQ9OPF+vHCpDvCEFjhGotdvSrgtXs9OTtrTCfJ rsa-key-20231019
+
+github ssh キー登録
+sourcetreeのツール→sshキーの作成/インポート
+
+Generateクリック→マウスカーソルドラック
+
+キーが作成されるとsshキーコピー
+キーに任意のパスワード設定
+
+Save public key で保存。　
+この時のパスはPC/ローカルディスク/ユーザー/.ssh/id_rsa.pub
+名前はid_rsa.pub
+
+Save private key で保存。　
+パスはPC/ローカルディスク/ユーザー/.ssh/id_rsa.ppk
+ファイル名：id_rsa.ppk
+
+conversions→Export OpenSSH key
+パス.PC/ローカルディスク/ユーザー/.ssh/id_rsa
+ファイル名：id_rsa
+
+---github--
+user setting → SSH and GPG keys
